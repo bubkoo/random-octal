@@ -12,6 +12,6 @@ describe('random-octal: ', function () {
   });
 
   it('randomOctal(7)', function () {
-    expect(randomOctal(7)).to.be.match(/^0O[0-7]$/);
+    expect(randomOctal(7)).to.be.match(/^0o[0-7]$/);
   });
 });
