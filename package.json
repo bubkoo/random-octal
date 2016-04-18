@@ -25,7 +25,10 @@
     "gen"
   ],
   "license": "MIT",
-  "author": "bubkoo <bubkoo.wy@gmail.com>",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mock-end/random-octal.git"
