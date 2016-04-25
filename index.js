@@ -2,9 +2,9 @@
 
 var randomNatural = require('random-natural');
 
-module.exports = function (min, max) {
+module.exports = function (options) {
 
-  var int   = randomNatural(min, max);
+  var int   = randomNatural(options);
   var octal = int.toString(8);
 
   return '0o' + octal;
