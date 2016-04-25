@@ -39,12 +39,16 @@ randomOctal();
 Can optionally provide `min` and `max`:
 
 ```js
-randomOctal(7);
+randomOctal({ max: 7 });
 // => '0o4'
 
-randomOctal(4, 7);
+randomOctal({ min: 4, max: 7 });
 // => '0o6'
 ```
+
+**Note**:
+
+These `min` and `max` are **inclusive**, so they are included in the range.
 
 ## Related
 
