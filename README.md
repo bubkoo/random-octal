@@ -33,17 +33,17 @@ By default it will return an octal number between `0` and `9007199254740992`:
 
 ```js
 randomOctal();
-// => 0o147
+// => '0o147'
 ```
 
 Can optionally provide `min` and `max`:
 
 ```js
 randomOctal(7);
-// => 0o4
+// => '0o4'
 
 randomOctal(4, 7);
-// => 0o6
+// => '0o6'
 ```
 
 ## Related
