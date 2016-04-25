@@ -46,9 +46,7 @@ randomOctal({ min: 4, max: 7 });
 // => '0o6'
 ```
 
-**Note**:
-
-These `min` and `max` are **inclusive**, so they are included in the range.
+**Note**: these `min` and `max` are **inclusive**, so they are included in the range.
 
 ## Related
 
